@@ -33,7 +33,7 @@
 }
 .section2{
     height: 90vh;
-    background-image: url("/pictures/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg");
+    background-image: url("./pictures/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -75,13 +75,13 @@
  }
 
 .box1{
-    background-image: url("/pictures/pexels-fabianwiktor-994605.jpg");
+    background-image: url("./pictures/pexels-fabianwiktor-994605.jpg");
 }
 .box2{
-    background-image: url("/pictures/pexels-hebaysal-773471.jpg");
+    background-image: url("./pictures/pexels-hebaysal-773471.jpg");
 }
 .box3{
-    background-image: url("/pictures/pexels-sagui-andrea-200115-618833.jpg");
+    background-image: url("./pictures/pexels-sagui-andrea-200115-618833.jpg");
 }
 .fontStyle{
     font: 20px;
