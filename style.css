@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: #77A096;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+}
+.icon a{
+    margin-left: 9px;
+}
+.nav2{
+   font-size:27px;
+   text-align: center;
+}
+.nav3{
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: px; */
+}
+.nav3div{
+    font-size: 15px;
+}
+.nav3div div:hover{
+    color: #77A096;
+}
+.section2{
+    height: 90vh;
+    background-image: url("/pictures/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section2Text{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.section3{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.boxes{
+    padding: 30px;
+    width:280px;
+    /* height: 172px; */
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s;
+    /* position: relative; */
+}
+.boxes:hover{
+    transform: scale(0.7);
+}
+ .boxBorder{
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 70px
+ }
+
+.box1{
+    background-image: url("/pictures/pexels-fabianwiktor-994605.jpg");
+}
+.box2{
+    background-image: url("/pictures/pexels-hebaysal-773471.jpg");
+}
+.box3{
+    background-image: url("/pictures/pexels-sagui-andrea-200115-618833.jpg");
+}
+.fontStyle{
+    font: 20px;
+    
+}
+.section4{
+    display: flex;
+}
+.subsection1{
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgColl{
+    width: 90%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin:20px;
+}
+.sec4img1{
+    background-image: url("/pictures/vecteezy_camera-and-coffee-with-a-bag-on-a-map_1979271.jpg");
+}
+.sec4img2{
+background-image: url("/pictures/yannic-laderach-Dqx4XWuXu7w-unsplash.jpg");
+}
+.sec4img3{
+    background-image: url("/pictures/pexels-elina-sazonova-1914984.jpg");
+}
+.sec4img4{
+    background-image: url("/pictures/toa-heftiba-_K0sTUUHQDE-unsplash.jpg");
+}
+
+.sec4Font{
+    color:#707070;
+    padding: 15px;
+    font-size: 17px;
+    font-family: Mulish,sans-serif;
+}
+.sec4Font2{
+   padding: 10px;
+    font-size: 20px;
+    font-family:"Cormorant Garamond", serif ;
+}
+.subsection2{
+    display: flex;
+    /* width: 500px; */
+    flex-direction: column;
+    align-items: center;
+    border-left: 1.5px solid #b8b5b5;
+    border-right: 1.5px solid #b8b5b5;
+    gap: 35px;
+    
+  
+}
+.Categories p{
+    color: #707070;
+    text-align: center;
+}
+.posts{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+.posts h5{
+    font-family: 'Cormorant Garamond', serif;
+}
+.subscribe{
+    text-align: center;
+}
+.subscribe input{
+    border-radius: 1rem;
+    padding: 2px;
+}
+.aboutMe{
+    text-align: center;
+}
+
+.section5{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+.imgHori{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 15px;
+    height: auto;
+
+}
+.imgHori img{
+    width: 100px;
+    height: auto;
+}
+
+.footer1{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.footer2{
+    padding: 40px;
+}
+.fontColor{
+    margin: 20px;
+    color:#707070;
+}
+.fontColor p{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+
+    .nav3div{
+        font-size: 7px;
+    }
+    .section3{
+        padding-top: 100px;
+    padding-bottom: 50px;
+    /* flex-direction: column; */
+    gap: 30px;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .imgColl{
+        width: auto;
+        background-position: center;
+        background-size: cover;
+    }
+    .footer1{
+        flex-wrap: wrap;
+    }
+    .imgHori {
+        flex-wrap: wrap; /* Allows images to wrap to a new line if necessary */
+        gap: 10px; /* Reduces gap on smaller screens */
+    }
+
+    .imgHori img {
+        width: 70px; /* Resize images to fit smaller screens */
+    }
+}
+
