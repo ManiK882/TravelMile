@@ -100,7 +100,7 @@
     
 }
 .imgColl{
-    width: 90%;
+    width: auto;
     height: 300px;
     background-position: center;
     background-size: cover;
