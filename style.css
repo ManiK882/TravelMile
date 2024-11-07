@@ -224,12 +224,12 @@ background-image: url("./pictures/yannic-laderach-Dqx4XWuXu7w-unsplash.jpg");
         flex-wrap: wrap;
     }
     .imgHori {
-        flex-wrap: wrap; /* Allows images to wrap to a new line if necessary */
-        gap: 10px; /* Reduces gap on smaller screens */
+        flex-wrap: wrap; 
+        gap: 10px; 
     }
 
     .imgHori img {
-        width: 70px; /* Resize images to fit smaller screens */
+        width: 70px; 
     }
 }
 
